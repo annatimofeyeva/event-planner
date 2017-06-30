@@ -10,9 +10,12 @@ public Event(int gnumber, String food, String beverages, String entertainment){
   mBeveragesOption = beverages;
   mEntertainmentOption = entertainment;
   }
-public String retutnEventCost(){
-
+public String returnEventCost(){
+int eventCost = "";
+if (.....){
+  price will be calculated in such way
 }
+}return eventCost;
 
 public int getCuestNumber(){
   return mGuestsNumber;
