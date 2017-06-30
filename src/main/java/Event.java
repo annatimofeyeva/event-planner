@@ -10,8 +10,20 @@ public Event(int gnumber, String food, String beverages, String entertainment){
   mBeveragesOption = beverages;
   mEntertainmentOption = entertainment;
   }
+public String retutnEventCost(){
 
+}
 
-
-
+public int getCuestNumber(){
+  return mGuestsNumber;
+}
+public String getFoodOption(){
+  return mFoodOption;
+}
+public String getBeverageOption(){
+  return mBeveragesOption;
+}
+public String getEntertainmentOption(){
+  return mEntertainmentOption;
+  }
 }
