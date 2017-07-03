@@ -6,21 +6,13 @@ public class App{
     System.out.println("Please, enter the number of guest (from 1 - 100):  ");
     String userInput = myConsole.readLine();
     int userInputGuestsNumber = Integer.parseInt(userInput);
-    //System.out.println(userInputGuestsNumber);
-    System.out.println("Please, type your choose for the food menu options: Steak Dinner, Seafood Dinner, Vegeterian Dinner or Oriental Food: ");
+    System.out.println("Please, type your choose for the food menu options: Steak Dinner[StD], Seafood Dinner[SfD], Vegeterian Dinner[VD] or Oriental Food[OF]: ");
     String userInputFoodOption = myConsole.readLine();
-    //System.out.println(userInputFoodOption);
-    System.out.println("Please, make you beverage choise: Red Vine, White Wine, Beer, Cocktails or non-alcoholic beverages");
+    System.out.println("Please, make you beverage choise: Red Vine[RW], White Wine[WW], Beer[B], Cocktails[C] or non-alcoholic beverages[NA]");
     String userInputBeverageOption = myConsole.readLine();
-    //System.out.println(userInputBeverageOption);
-    System.out.println("Please, make you Entertainment choise: Jazz band, String quartet, Country music or Oriental belly dance music");
+    System.out.println("Please, make you Entertainment choise: Jazz Band[JB], String Quartet[SQ], Country Music[CM] or Oriental belly dance music[OM]");
     String userInputEntertainmentOption = myConsole.readLine();
-    //System.out.println(userInputEntertainmentOption);
-
-
-
-
-//printing final cost of event
-//System.out.println("Yours event cost is " + returnEventCost());
+    Event myEvent = new Event(userInputGuestsNumber, userInputFoodOption, userInputBeverageOption, userInputEntertainmentOption);
+    System.out.println("Total cost: " + myEvent.getTotalCost());
   }
 }
