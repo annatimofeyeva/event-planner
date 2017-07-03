@@ -4,11 +4,11 @@
 
 #### _Event planner_
 
-Command line application for an all-inclusive party planning service, written in Java. The application calculate a cost for party planning service depending on the user choice.
+Command line application for an all-inclusive party planning service, written in Java. The application calculate a cost for party planning service depending on the user's choice.
 
 ## Technologies Used
 * Java
-* junit
+* jUnit
 * Gradle
 
 ### License
