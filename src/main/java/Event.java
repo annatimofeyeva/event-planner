@@ -89,7 +89,7 @@ public Event(){
       if (entertainmentOption.equals("JB") && guestsNumber > 150) {
         entertainmentPrice = 0.0;
       } else {
-        System.out.println("Sorry, this coupon code is unaplicable.");
+        System.out.println("Sorry, this coupon code is inapplicable.");
       }
     }
     totalCost = (foodPrice + beveragePrice) * guestsNumber + entertainmentPrice;
