@@ -30,6 +30,7 @@ public class EventTest {
       testEvent.setGuestsNumber(100);
       assertEquals(100, testEvent.getGuestsNumber());
     }
+    
   @Test
     public void getTotalCost_forGivenData() {
       Event testEvent = new Event();
